@@ -1,5 +1,7 @@
 # WhatsApp Clone
 
+![WhatsApp Clone ScreenShot](/assets/whatsapp-clone-ss.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## To Start the Project Follow the given set of Commands:
