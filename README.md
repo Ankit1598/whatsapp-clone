@@ -6,8 +6,8 @@
      <th>Dark Theme</th>
   </tr>
   <tr>
-    <td><img src="wp_light_theme.png" width=600 height=280></td>
-    <td><img src="wp_dark_theme.png" width=600 height=280></td>
+    <td><img src="assets/wp_light_theme.png" width=600 height=280></td>
+    <td><img src="assets/wp_dark_theme.png" width=600 height=280></td>
   </tr>
  </table>
 
