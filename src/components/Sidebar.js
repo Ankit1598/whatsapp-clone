@@ -6,6 +6,7 @@ import {
 	SIDEBAR_SEARCH,
 	SIDEBAR_SEARCH_CONTAINER,
 	SIDEBAR_CHAT_BODY,
+	SIDEBAR_CHAT_AVATAR,
 	SIDEBAR_CHAT_INFO,
 	SIDEBAR_CHAT,
 } from "./styles/sidebar";
@@ -45,6 +46,10 @@ Sidebar.Chat = function SidebarChat({ children, ...restProps }) {
 	return <SIDEBAR_CHAT {...restProps}>{children}</SIDEBAR_CHAT>;
 };
 
-Sidebar.Chat_Info = function SidebarChat({ children, ...restProps }) {
+Sidebar.Chat_Avatar = function SidebarChatAVATAR({ children, ...restProps }) {
+	return <SIDEBAR_CHAT_AVATAR {...restProps}>{children}</SIDEBAR_CHAT_AVATAR>;
+};
+
+Sidebar.Chat_Info = function SidebarChatInfo({ children, ...restProps }) {
 	return <SIDEBAR_CHAT_INFO {...restProps}>{children}</SIDEBAR_CHAT_INFO>;
 };

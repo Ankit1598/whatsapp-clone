@@ -1,6 +1,15 @@
 # WhatsApp Clone
 
-![WhatsApp Clone ScreenShot](/assets/whatsapp-clone-ss.jpg)
+<table>
+  <tr>
+     <th>Light Theme</th>
+     <th>Dark Theme</th>
+  </tr>
+  <tr>
+    <td><img src="wp_light_theme.png" width=600 height=280></td>
+    <td><img src="wp_dark_theme.png" width=600 height=280></td>
+  </tr>
+ </table>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,17 +1,35 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
-import { Avatar } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-function Chats({ user, lstMsg }) {
+function ChatListContainer({ user, lstMsg }) {
+	const options = {
+		hour12: false,
+		hour: "2-digit",
+		minute: "2-digit",
+	};
+
 	return (
 		<Sidebar.Chat>
-			<Avatar />
+			<Sidebar.Chat_Avatar>
+				<Avatar />
+			</Sidebar.Chat_Avatar>
 			<Sidebar.Chat_Info>
-				<h4>{user}</h4>
-				<p>{ lstMsg }</p>
+				<h4>
+					{user}
+					<p>{new Date().toLocaleTimeString("en-US", options)}</p>
+				</h4>
+
+				<p>
+					{lstMsg}
+					<IconButton>
+						<ExpandMoreIcon />
+					</IconButton>
+				</p>
 			</Sidebar.Chat_Info>
 		</Sidebar.Chat>
 	);
 }
 
-export default Chats;
+export default ChatListContainer;
